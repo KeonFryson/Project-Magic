@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbd63b7296e63074da76c74b9810be9a, type: 3}
+  m_Name: Beam
+  m_EditorClassIdentifier: Assembly-CSharp::SpellSystem.BeamDelivery
+  baseStats:
+    damage: 28
+    cooldown: 2.6
+    manaCost: 20
+    size: 1
+    speed: 12
+    lifetime: 2
+    homing: 0
+    spread: 0
+    projectileCount: 1
+    pierce: 0
+    bounces: 0
+    splitCount: 0
+    chainCount: 0
+    range: 9
+    radius: 2
+    tickInterval: 0.15
+    chainRange: 5
+  effectInterval: 0.5

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca29ef9e418529443b5ab0ccffcecd3f, type: 3}
+  m_Name: Meteor
+  m_EditorClassIdentifier: Assembly-CSharp::SpellSystem.SpellSO
+  displayName: Meteor
+  icon: {fileID: 0}
+  element: {fileID: 11400000, guid: c18d85f294aa24b418692d332afb23da, type: 2}
+  delivery: {fileID: 11400000, guid: ea7aca750d7c8e34a9af95efd28c4f10, type: 2}
+  maxModifiers: 4
+  modifiers:
+  - {fileID: 11400000, guid: 9d876a692bcc2b447a3474de8ad277b3, type: 2}
+  - {fileID: 11400000, guid: 424047a434886cb43a31a610c4ebe85d, type: 2}

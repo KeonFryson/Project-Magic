@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c88dea97488558e428f05d6f8a1ffc10, type: 3}
+  m_Name: Chain
+  m_EditorClassIdentifier: Assembly-CSharp::SpellSystem.StatModifierSO
+  description: Arcs to nearby enemies after a hit.
+  damageMult: 0.85
+  speedMult: 1
+  sizeMult: 1
+  cooldownMult: 1
+  manaMult: 1
+  lifetimeMult: 1
+  rangeMult: 1
+  radiusMult: 1
+  addHoming: 0
+  addSpread: 0
+  addProjectiles: 0
+  addPierce: 0
+  addBounces: 0
+  addSplit: 0
+  addChain: 2
+  addOnHit: []

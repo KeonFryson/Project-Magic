@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ba4bfbaa14aa9748824d5d19e118e5f, type: 3}
+  m_Name: Orbit
+  m_EditorClassIdentifier: Assembly-CSharp::SpellSystem.OrbitDelivery
+  baseStats:
+    damage: 8
+    cooldown: 6
+    manaCost: 20
+    size: 0.8
+    speed: 200
+    lifetime: 5
+    homing: 0
+    spread: 0
+    projectileCount: 3
+    pierce: 0
+    bounces: 0
+    splitCount: 0
+    chainCount: 0
+    range: 2
+    radius: 2
+    tickInterval: 0.2
+    chainRange: 5
